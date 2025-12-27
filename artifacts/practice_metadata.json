@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "accountUpdate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice.sol": "practice"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice.sol": {
+			"keccak256": "0xca957d129321b9418f09a9822f9a1778f72e3ade42c73c5f88be1251179a34c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf36407432bce203a18aa0f12848baa61b143b535a554239cba90a8f61a0d337",
+				"dweb:/ipfs/QmZw9CbJm5UpvWoUaXaX89YVWyHXq8gAyc5zpf9GEXXByP"
+			]
+		}
+	},
+	"version": 1
+}
