@@ -1,0 +1,72 @@
+{
+	"id": "ebc6bcc88334c50e28c7eeca229d03a8",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.20",
+	"solcLongVersion": "0.8.20+commit.a1b79de6",
+	"input": {
+		"language": "Solidity",
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		},
+		"sources": {
+			"contracts/StorageFactory.sol": {
+				"content": "// //SPDX-License-Identifier: MIT\r\n// pragma solidity ^0.8.20; //declaring the solidity version\r\n\r\n// //shortcut to importing avother contract into a contract\r\n// import {SimpleStorage} from \"./SimpleStorage.sol\";\r\n\r\n// contract SimpleFactory { //declaring and naming a contract \r\n\r\n// SimpleStorage[] public listofSimpleStorageContracts; // adding '[]' makes it an aray\r\n\r\n// function createSimpleSorage() public { //declaring and naming a fuction, calling it puvlic\r\n//     // creating a new contract\r\n//     SimpleStorage newSimpleStorageContract = new SimpleStorage();\r\n//     //storing the deployed contracts  \r\n//     listofSimpleStorageContracts.push(newSimpleStorageContract);\r\n//     }\r\n\r\n// function sfStore(uint256 _simpleStorageIndex, uint256 _newValue)\r\n//     public {\r\n//     // Get the SimpleStorage contract at the given index\r\n//     SimpleStorage mySimpleStorage = listofSimpleStorageContracts[_simpleStorageIndex];\r\n//     // Call the store function on that contract\r\n//     mySimpleStorage.store(_newValue);\r\n//     }\r\n\r\n// // to retrieve \r\n// function sfGet(uint256 _simpleStorageIndex) public view returns(uint256)\r\n// {return listofSimpleStorageContracts[_simpleStorageIndex].retrieve();\r\n//     }\r\n// }\r\n\r\n"
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.20;\"\n--> contracts/StorageFactory.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.20;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/StorageFactory.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/StorageFactory.sol": {
+				"ast": {
+					"absolutePath": "contracts/StorageFactory.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "1231:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

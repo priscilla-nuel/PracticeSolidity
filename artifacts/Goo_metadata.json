@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "GoodPractice"
+			"contracts/SimpleStorage.sol": "Goo"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x53ac97ce8562d11fb2ec780521d2c3582d10e446ae4f6c56a5952370964b4a5e",
+			"keccak256": "0xaced1ed65a6a2cb58a5d47941b68224977e768e1d05d6792dc49c59aa34a7428",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://35127e01fd2f798d5d76bd68488248e0d9b5a5483fff49340fdebaba5ab9c1b1",
-				"dweb:/ipfs/QmWVpsd7UyMtf983NYE7MqxHR95pQWRQN7r8LW9DcyGYwZ"
+				"bzz-raw://507528c6bbff07865d27533ce72d4a20e81d9c2bf7d08fae613a0ed925e383c7",
+				"dweb:/ipfs/QmX2iBaRFUSGnUsg6NujLdFqu6tsmhggELh6e9TSk1mu6d"
 			]
 		}
 	},
